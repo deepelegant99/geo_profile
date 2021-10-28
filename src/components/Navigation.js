@@ -21,6 +21,12 @@ const Navigation = () => {
           fontFamily: 'Arial, Helvetica, sans-serif',
           fontSize: '1.5rem', borderRadius: '50px'}}>Profiles</Button></Link>
         </li>
+        <li>
+          <Link to="/create" style={{ textDecoration: 'none' }}>
+            <Button style={{backgroundColor: 'gray', color:'white',
+          fontFamily: 'Arial, Helvetica, sans-serif',
+          fontSize: '1.5rem', width:'150px', borderRadius: '50px'}}>Create</Button></Link>
+        </li>
       </ul>
     </nav>
     </StylesProvider>
