@@ -37,7 +37,8 @@ const GetData = ({ setData }) => {
     },
   ];
 
-  setData(Data);
+  
+  //setData(Data);
 
   return <></>;
     

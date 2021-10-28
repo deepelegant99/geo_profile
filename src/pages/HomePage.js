@@ -45,11 +45,11 @@ const HomePage = ({ Data }) => {
             <DisplayPage />
           </Grid>*/}
       <Grid container spacing={3}>
-        {Object.keys(Data).map((firstName, index) => (
+        {/*Object.entries(Data).map((firstName, index) => (
           <Grid item xs={6} md={3}>
             <DisplayProfile data={Data} />
           </Grid>
-        ))}
+        ))*/}
       </Grid>
     </div>
   );
